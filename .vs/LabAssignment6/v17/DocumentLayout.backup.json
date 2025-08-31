@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\chris\\Documents\\Spring 2025\\Web Languages I\\Visual Studio Projects\\LabAssignment6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C33A313-E0F4-424E-99A3-EA9052A8C0E4}|LabAssignment6.csproj|c:\\users\\chris\\documents\\spring 2025\\web languages i\\visual studio projects\\labassignment6\\views\\academicrecords\\editall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C33A313-E0F4-424E-99A3-EA9052A8C0E4}|LabAssignment6.csproj|solutionrelative:views\\academicrecords\\editall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C33A313-E0F4-424E-99A3-EA9052A8C0E4}|LabAssignment6.csproj|c:\\users\\chris\\documents\\spring 2025\\web languages i\\visual studio projects\\labassignment6\\views\\academicrecords\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C33A313-E0F4-424E-99A3-EA9052A8C0E4}|LabAssignment6.csproj|solutionrelative:views\\academicrecords\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C33A313-E0F4-424E-99A3-EA9052A8C0E4}|LabAssignment6.csproj|c:\\users\\chris\\documents\\spring 2025\\web languages i\\visual studio projects\\labassignment6\\controllers\\academicrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C33A313-E0F4-424E-99A3-EA9052A8C0E4}|LabAssignment6.csproj|solutionrelative:controllers\\academicrecordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C33A313-E0F4-424E-99A3-EA9052A8C0E4}|LabAssignment6.csproj|c:\\users\\chris\\documents\\spring 2025\\web languages i\\visual studio projects\\labassignment6\\dataaccess\\academicrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C33A313-E0F4-424E-99A3-EA9052A8C0E4}|LabAssignment6.csproj|solutionrelative:dataaccess\\academicrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C33A313-E0F4-424E-99A3-EA9052A8C0E4}|LabAssignment6.csproj|c:\\users\\chris\\documents\\spring 2025\\web languages i\\visual studio projects\\labassignment6\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C33A313-E0F4-424E-99A3-EA9052A8C0E4}|LabAssignment6.csproj|solutionrelative:controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C33A313-E0F4-424E-99A3-EA9052A8C0E4}|LabAssignment6.csproj|c:\\users\\chris\\documents\\spring 2025\\web languages i\\visual studio projects\\labassignment6\\views\\employees\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C33A313-E0F4-424E-99A3-EA9052A8C0E4}|LabAssignment6.csproj|solutionrelative:views\\employees\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Academicrecord.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\Documents\\Spring 2025\\Web Languages I\\Visual Studio Projects\\LabAssignment6\\DataAccess\\Academicrecord.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Academicrecord.cs",
+              "ToolTip": "C:\\Users\\chris\\Documents\\Spring 2025\\Web Languages I\\Visual Studio Projects\\LabAssignment6\\DataAccess\\Academicrecord.cs",
+              "RelativeToolTip": "DataAccess\\Academicrecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T20:06:53.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditAll.cshtml",
+              "DocumentMoniker": "C:\\Users\\chris\\Documents\\Spring 2025\\Web Languages I\\Visual Studio Projects\\LabAssignment6\\Views\\Academicrecords\\EditAll.cshtml",
+              "RelativeDocumentMoniker": "Views\\Academicrecords\\EditAll.cshtml",
+              "ToolTip": "C:\\Users\\chris\\Documents\\Spring 2025\\Web Languages I\\Visual Studio Projects\\LabAssignment6\\Views\\Academicrecords\\EditAll.cshtml",
+              "RelativeToolTip": "Views\\Academicrecords\\EditAll.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-28T20:01:25.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\chris\\Documents\\Spring 2025\\Web Languages I\\Visual Studio Projects\\LabAssignment6\\Views\\Academicrecords\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Academicrecords\\Create.cshtml",
+              "ToolTip": "C:\\Users\\chris\\Documents\\Spring 2025\\Web Languages I\\Visual Studio Projects\\LabAssignment6\\Views\\Academicrecords\\Create.cshtml",
+              "RelativeToolTip": "Views\\Academicrecords\\Create.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowBkAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-26T22:12:00.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AcademicrecordsController.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\Documents\\Spring 2025\\Web Languages I\\Visual Studio Projects\\LabAssignment6\\Controllers\\AcademicrecordsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AcademicrecordsController.cs",
+              "ToolTip": "C:\\Users\\chris\\Documents\\Spring 2025\\Web Languages I\\Visual Studio Projects\\LabAssignment6\\Controllers\\AcademicrecordsController.cs",
+              "RelativeToolTip": "Controllers\\AcademicrecordsController.cs",
+              "ViewState": "AgIAALoAAAAAAAAAAAAIwOAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T22:10:30.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\chris\\Documents\\Spring 2025\\Web Languages I\\Visual Studio Projects\\LabAssignment6\\Views\\Employees\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employees\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\chris\\Documents\\Spring 2025\\Web Languages I\\Visual Studio Projects\\LabAssignment6\\Views\\Employees\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Employees\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-24T17:39:00.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\chris\\Documents\\Spring 2025\\Web Languages I\\Visual Studio Projects\\LabAssignment6\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\chris\\Documents\\Spring 2025\\Web Languages I\\Visual Studio Projects\\LabAssignment6\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAswKMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T17:45:09.623Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

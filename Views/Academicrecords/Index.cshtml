@@ -1,0 +1,45 @@
+﻿@model IEnumerable<LabAssignment6.DataAccess.Academicrecord>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["CourseSortParam"]">Course</a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@ViewData["StudentSortParam"]">Student</a>
+            </th>
+            <th>Grade</th>
+            <th>
+                <a asp-action="EditAll">Edit All</a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @item.CourseCodeNavigation?.Code - @item.CourseCodeNavigation?.Title
+            </td>
+            <td>
+                @item.Student?.Id - @item.Student?.Name
+            </td>
+            <td>
+                @(item.Grade.HasValue ? item.Grade.ToString() : "")
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-courseCode="@item.CourseCode" asp-route-studentId="@item.StudentId">Edit</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

@@ -1,0 +1,36 @@
+﻿@model LabAssignment6.DataAccess.Academicrecord
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit Academic Record</h1>
+
+<h4>
+    @Model.CourseCodeNavigation?.Code - @Model.CourseCodeNavigation?.Title
+</h4>
+<h4>@Model.Student?.Id - @Model.Student?.Name</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="CourseCode" />
+            <input type="hidden" asp-for="StudentId" />
+            <div class="form-group">
+                <label asp-for="Grade" class="control-label"></label>
+                <input asp-for="Grade" class="form-control mt-2 mb-4" />
+                <span asp-validation-for="Grade" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary mb-4 mt-4">Save</button>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

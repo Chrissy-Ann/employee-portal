@@ -1,0 +1,49 @@
+﻿@model IEnumerable<LabAssignment6.DataAccess.Employee>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Employee Name
+            </th>
+            <th>
+                Network ID
+            </th>
+            <th>
+                Job Title(s)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @item.Name
+            </td>
+            <td>
+                @item.UserName
+            </td>
+            <td>
+                @(item.Roles.Any()
+                    ? string.Join(", ", item.Roles.Select(r => r.Role1))
+                    : "No roles assigned")
+
+
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
